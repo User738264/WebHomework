@@ -1,0 +1,112 @@
+.login-page {
+    margin: 0;
+    padding: 0;
+    font-family: 'Golos UI', sans-serif;
+    background: #FFFFFF;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-page__container {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    max-width: 1200px;
+    width: 100%;
+    padding: 40px;
+}
+
+.login-page__left-block {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.left-block__title {
+    font-weight: 700;
+    font-size: 140px;
+    line-height: 1.2;
+    color: #222222;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.left-block__photo {
+    width: 100%;
+    max-width: 462px;
+    height: 637px;
+    background-image: url('log.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.login-page__form {
+    flex: 1;
+    max-width: 343px;
+}
+
+.form__fields {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin-bottom: 32px;
+}
+
+.form-field {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.form-field__label {
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.15px;
+    color: #222222;
+}
+
+.form-field__input-container {
+    display: flex;
+    align-items: center;
+    padding: 13px 12px;
+    background: #F2F3F5;
+    border-radius: 10px;
+}
+
+.form-field__input {
+    width: 100%;
+    height: 18px;
+    font-size: 15px;
+    line-height: 18px;
+    color: #222222;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+.form-field__description {
+    font-size: 13px;
+    line-height: 16px;
+    color: #808080;
+}
+
+.form-field__description--password {
+    color: #909090;
+}
+
+.form__submit-button {
+    width: 100%;
+    height: 48px;
+    background: #222222;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
